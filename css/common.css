@@ -1,0 +1,53 @@
+﻿a, b, body, dd, del, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var, input {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+img,button,input {
+    border: 0;
+}
+em, i, u {
+    font-style: normal;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+body {
+    font: 12px/1.5 'microsoft yahei',Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    font-family: 'microsoft yahei';
+}
+a:hover {
+    color: #ffb400;
+}
+/* 版心公共类 */
+.cont {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.m-color {
+    color: #ffb400;
+}
+img {
+    vertical-align: top;
+}
